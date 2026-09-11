@@ -1,0 +1,9 @@
+# Стоимость использования команды /spawn.
+price: 5.0
+
+messages:
+  player-only: '<red>Эту команду может использовать только игрок.'
+  no-money: '<red>Недостаточно денег. Нужно: <gold>{price}</gold>, у вас: <gold>{balance}</gold>.</red>'
+  withdrawal-failed: '<red>Не удалось списать деньги. Попробуйте позже.'
+  teleport-failed: '<red>Телепортация отменена. Деньги возвращены.'
+  teleported: '<green>Вы телепортированы на spawn за <gold>{price}</gold>.</green>'

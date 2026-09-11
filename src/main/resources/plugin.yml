@@ -1,0 +1,19 @@
+name: PaidSpawn
+version: 1.0.0
+main: me.getsouf.paidspawn.PaidSpawnPlugin
+api-version: '26.1'
+description: Телепортация на spawn за игровую валюту
+author: getsouf
+depend:
+  - Vault
+
+commands:
+  spawn:
+    description: Телепортироваться на spawn за деньги
+    usage: /spawn
+    permission: paidspawn.use
+
+permissions:
+  paidspawn.use:
+    description: Разрешает использовать команду /spawn
+    default: true
